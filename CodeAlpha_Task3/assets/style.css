@@ -1,0 +1,79 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    color: #333;
+  }
+  
+  .music-player {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .audio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .player-controls {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #009688;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #00796b;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #004d40;
+  }
+  
+  .music-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #track-name, #artist-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00796b;
+    margin-bottom: 8px;
+  }
+  
+  #track-name {
+    font-size: 24px;
+  }
+  
+  #artist-name {
+    font-size: 18px;
+  }
+  
+  .player-controls button {
+    background-color: #004d40;
+  }
+  
+  .player-controls button:hover {
+    background-color: #00332b;
+  }
+  
